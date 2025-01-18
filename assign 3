@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> IMAGE ADDED VIA LOCAL STORAGE </h2>
+    <image src="image.webp"alt="Error in screaming image" height="200" width="300"/>
+    <h2> IMAGE ADDED VIA CDN </h2>
+    <image src="https://ik.imagekit.io/Harini/image.webp" alt="Error in screaming image CDN" height="200" width="300"></image>
+    <h2> ADDED VIDEO VIA CDN </h2>
+    <video src="https://ik.imagekit.io/Harini/854228-hd_1920_1080_30fps.mp4"  controls alt="Error in video" height="200" width="300">  </video>
+    <h2> BASIC FORM </h2>
+    <form>
+        <!--using label-->
+        <label for="email"> Username </label>
+        <input type="text" id="email"/>
+        <br>
+        <label for="password"> Password </label>
+        <input type="text" id="password"/>
+        <br>
+        <button> Submit</button>
+        <!--using placeholder-->
+        <br>
+        <br>
+        <label for="email"> Username </label>
+        <input type="text" placeholder="Enter your username" id="email"/>
+        <br>
+        <label for="password"> Password </label>
+        <input type="text" placeholder="Enter your password" id="password"/>
+        <br>
+        <button> Submit</button>
+    </form>
+    <br>
+    <p> HTML ENTITIES </p>
+    <p> -copyright: &copy; </p>
+    <p> -trademark: &amp;</p>
+    <p> -ampersand: &cent;</p>
+    <p> -pound: &pound;</p>
+    <p> -euro: &euro;</p>
+    
+
+</body>
+</html>
